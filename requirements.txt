@@ -1,0 +1,4 @@
+Django<5
+factory-boy
+Faker
+PyYAML

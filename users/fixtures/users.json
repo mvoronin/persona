@@ -1,0 +1,74 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "scrypt$16384$MhZEpFarDpHGKfNBgaL9JP$8$1$0RHA7wi65ulrtygJhdwG+kSMXY0Wf/nZg9Xk6GErPob+8ca8ZL0xegUo2sukF01veGQGensAV048o3EHacXJ4A==",
+        "last_login": "2021-12-01T01:00:00Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-12-01T00:00:00Z",
+        "email": "admin@local.local",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+        "password": "scrypt$16384$lY9x2NWBLWzWuiRMZ1IYe8$8$1$LgcEOD/d9ORyeqfvC+bf4kxxrgWokrhuYvZCyk7+Igo9w3k+0zVgjhPgfWZcV9EkOYEEyKatDhDCQz4fTfrZOA==",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "author",
+        "first_name": "James",
+        "last_name": "Jones",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-12-01T00:00:00Z",
+        "email": "author@local.local",
+        "groups": [],
+        "user_permissions": [
+            [
+                "view_category",
+                "blog",
+                "category"
+            ],
+            [
+                "add_post",
+                "blog",
+                "post"
+            ],
+            [
+                "change_post",
+                "blog",
+                "post"
+            ],
+            [
+                "delete_post",
+                "blog",
+                "post"
+            ],
+            [
+                "view_post",
+                "blog",
+                "post"
+            ]
+        ]
+    }
+},
+{
+    "model": "users.contacts",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "author@local.local"
+        ],
+        "email": "contact@local.local"
+    }
+}
+]

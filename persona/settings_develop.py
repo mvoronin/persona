@@ -49,7 +49,7 @@ USE_TZ = settings_generic.USE_TZ
 STATIC_URL = settings_generic.STATIC_URL
 STATICFILES_DIRS = [
     ("css", BASE_DIR / "static/css"),
-    ("css", BASE_DIR / "static/css3p"),
+    ("css3p", BASE_DIR / "static/css3p"),
     ("js", BASE_DIR / "static/js"),
     ("fonts", BASE_DIR / "static/fonts"),
     ("img", BASE_DIR / "static/img"),

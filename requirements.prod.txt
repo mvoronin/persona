@@ -1,3 +1,5 @@
+wheel  # Wheel is a built-package format.
+
 Django<5
 psycopg2
 PyYAML
